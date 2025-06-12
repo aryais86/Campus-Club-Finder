@@ -4,14 +4,14 @@ import Home from "./pages/Home";
 // import ClubDetail from "./pages/ClubDetail";
 // import About from "./pages/About";
 // import NotFound from "./pages/NotFound";
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar";
 import './App.css'
 
 function App() {
 
   return (
     <Router>
-      {/* <Navbar /> */}
+      <Navbar /> {/*will show in every page*/}
       <Routes>
         <Route path="/" element={<Home />} />
         {/* <Route path="/clubs" element={<Clubs/>} /> */}
